@@ -1,13 +1,6 @@
 ---
-title: "My blog"
-date: 2024-02-22
-categories:
- - blog
-tags:
- - blog
- - 记录
+title: "My First Blog"
 ---
-
 
 # 第一篇博客
 
@@ -40,3 +33,4 @@ git push origin main
 ```
 
 在仓库中的action栏可以看到远程仓库的workflows，push到仓库后平均不到一分钟便可以从网站页面上看到内容更新，速度相当可观。
+<img src="../assets/images/20240222011228.png">
