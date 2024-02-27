@@ -1,0 +1,31 @@
+# 环境配置&&熟悉生产工具
+## 1.环境配置
+当前环境**windows操作系统intel芯片**，下面进行实验环境的搭建
+- 下载虚拟机软件virtualBox
+- 下载ubuntu镜像文件 [ubuntu官网](https://ubuntu.com/download/desktop)
+- 将镜像文件导入virtualbox
+- 配置ssh ，参考 https://zhuanlan.zhihu.com/p/191627275
+- 使用vscode插件远程连接 推荐Remote-ssh插件
+- 配置git
+- 将代码托管在github （温馨提示：将仓库设置为**私有**
+- 安装相关开发工具
+
+```
+sudo apt update && sudo apt upgrade
+sudo apt install qemu-system-x86 build-essential gdb
+```
+
+- 配置rust语言环境
+
+```
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+source "$HOME/.cargo/env"
+```
+
+## rust语言基础
+- 新建一个rust文件,后缀为.rs
+- 编译运行rust源代码
+```
+rustc main.rs  # 编译
+./main # 运行
+```
