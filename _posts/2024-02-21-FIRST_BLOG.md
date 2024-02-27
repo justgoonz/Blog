@@ -25,6 +25,7 @@ YouTube 教程：[jekyll_tutorial](https://www.youtube.com/watchv=LfP7Y9Ja6Qc&li
 jekyll实际上是一个前端页面生成器，可以识别markdown代码生成前端页面，这里我偷懒放了OpenAI的解释
 <img src="../assets/images/20240222010320.png">
 在设置好个性化配置文件后，我们只需将写好的文章按照jekyll的命名规则，将.md文件放在_post文件夹下即可。最后使用git将代码推送到远程仓库
+如果你想使用图形化界面来进行版本管理，也可以使用GitHub Desktop
 
 ```
 # 添加修改
