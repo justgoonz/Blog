@@ -1,5 +1,6 @@
 ---
 title: "My First Blog"
+categories: "博客"
 ---
 
 # 第一篇博客
