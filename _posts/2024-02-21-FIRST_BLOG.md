@@ -19,12 +19,12 @@ YouTube 教程：[jekyll_tutorial](https://www.youtube.com/watchv=LfP7Y9Ja6Qc&li
 
 
 ## 项目结构
-<img src="../assets/images/20240222005101.png">
+[![pFB9QgA.png](https://s11.ax1x.com/2024/03/02/pFB9QgA.png)](https://imgse.com/i/pFB9QgA)
 
 
 
 jekyll实际上是一个前端页面生成器，可以识别markdown代码生成前端页面，这里我偷懒放了OpenAI的解释
-<img src="../assets/images/20240222010320.png">
+[![pFB9ljI.png](https://s11.ax1x.com/2024/03/02/pFB9ljI.png)](https://imgse.com/i/pFB9ljI)
 在设置好个性化配置文件后，我们只需将写好的文章按照jekyll的命名规则，将.md文件放在_post文件夹下即可。最后使用git将代码推送到远程仓库
 如果你想使用图形化界面来进行版本管理，也可以使用GitHub Desktop
 
@@ -38,4 +38,4 @@ git push origin main
 ```
 
 在仓库中的action栏可以看到远程仓库的workflows，push到仓库后平均不到一分钟便可以从网站页面上看到内容更新，速度相当可观。
-<img src="../assets/images/20240222011228.png">
+[![pFB93ut.png](https://s11.ax1x.com/2024/03/02/pFB93ut.png)](https://imgse.com/i/pFB93ut)
